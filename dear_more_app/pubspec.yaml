@@ -1,0 +1,70 @@
+name: dear_more
+description: A multimodal digital twin with nested continual learning
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Sensor & Device Access
+  sensors_plus: ^4.0.0
+  geolocator: ^10.1.0
+  record: ^5.0.0
+  light: ^3.0.0
+  permission_handler: ^11.0.0
+
+  # Background Processing
+  flutter_background_service: ^5.0.0
+  workmanager: ^0.5.0
+
+  # ML & Inference
+  tflite_flutter: ^0.10.0
+
+  # Database & Storage
+  drift: ^2.14.0
+  sqlcipher_flutter_libs: ^0.6.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.1.0
+
+  # Encryption & Security
+  flutter_secure_storage: ^9.0.0
+  encrypt: ^5.0.0
+  crypto: ^3.0.0
+
+  # State Management
+  provider: ^6.1.0
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+
+  # Networking
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.0
+  battery_plus: ^5.0.0
+
+  # Utilities
+  uuid: ^4.0.0
+  collection: ^1.18.0
+  shared_preferences: ^2.2.0
+
+  # UI
+  fl_chart: ^0.65.0
+  animations: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  drift_dev: ^2.14.0
+  build_runner: ^2.4.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/
+    - assets/images/
