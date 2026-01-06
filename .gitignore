@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+backend/lib/
+backend/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Backend specific
+backend/models/*.h5
+backend/models/*.tflite
+backend/models/*.pb
+backend/.env
+backend/*.db
+backend/*.sqlite
+
+# Flutter/Dart
+dear_more_app/.dart_tool/
+dear_more_app/.flutter-plugins
+dear_more_app/.flutter-plugins-dependencies
+dear_more_app/.packages
+dear_more_app/.pub-cache/
+dear_more_app/.pub/
+dear_more_app/build/
+dear_more_app/*.g.dart
+dear_more_app/*.freezed.dart
+
+# Android
+dear_more_app/android/**/gradle-wrapper.jar
+dear_more_app/android/.gradle
+dear_more_app/android/captures/
+dear_more_app/android/gradlew
+dear_more_app/android/gradlew.bat
+dear_more_app/android/local.properties
+dear_more_app/android/**/GeneratedPluginRegistrant.java
+dear_more_app/android/key.properties
+dear_more_app/**/*.keystore
+
+# iOS
+dear_more_app/ios/**/*.mode1v3
+dear_more_app/ios/**/*.mode2v3
+dear_more_app/ios/**/*.moved-aside
+dear_more_app/ios/**/*.pbxuser
+dear_more_app/ios/**/*.perspectivev3
+dear_more_app/ios/**/*sync/
+dear_more_app/ios/**/.sconsign.dblite
+dear_more_app/ios/**/.tags*
+dear_more_app/ios/**/.vagrant/
+dear_more_app/ios/**/DerivedData/
+dear_more_app/ios/**/Icon?
+dear_more_app/ios/**/Pods/
+dear_more_app/ios/**/.symlinks/
+dear_more_app/ios/**/profile
+dear_more_app/ios/**/xcuserdata
+dear_more_app/ios/.generated/
+dear_more_app/ios/Flutter/App.framework
+dear_more_app/ios/Flutter/Flutter.framework
+dear_more_app/ios/Flutter/Flutter.podspec
+dear_more_app/ios/Flutter/Generated.xcconfig
+dear_more_app/ios/Flutter/ephemeral/
+dear_more_app/ios/Flutter/app.flx
+dear_more_app/ios/Flutter/app.zip
+dear_more_app/ios/Flutter/flutter_assets/
+dear_more_app/ios/Flutter/flutter_export_environment.sh
+dear_more_app/ios/ServiceDefinitions.json
+dear_more_app/ios/Runner/GeneratedPluginRegistrant.*
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# SSL Certificates
+backend/ssl/
+*.pem
+*.key
+*.crt
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
